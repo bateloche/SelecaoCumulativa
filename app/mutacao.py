@@ -1,12 +1,13 @@
 from random import SystemRandom
-from string_utils import caracteres_possiveis
+from str_comp import StrComp
 
 class Mutacao:
 
     def __init__(self, mutacoes):
         self.quantidade_mutacoes = mutacoes
         self.random = SystemRandom()
-        self.caracteres = caracteres_possiveis()
+        self.comp = StrComp()
+        self.caracteres = self.comp.CARACTERES_POSSIVEIS
 
     def mutar(self, texto):
         lst = list(texto)
