@@ -46,7 +46,7 @@ nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoC
 nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\app\gerador_strings.py? None
 nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\app\mutacao.py? None
 nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\app\reproducao.py? None
-nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\app\str_comp.py? None
+nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\app\compara_texto.py? None
 nose.suite: DEBUG: Create suite for <nose.suite.ContextList object at 0x05B9E810>
 nose.suite: DEBUG: tests <nose.suite.ContextList object at 0x05B9E810> context <module 'app' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\__init__.py'>
 nose.suite: DEBUG: Context suite for <nose.suite.ContextList object at 0x05B9E810> (<module 'app' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\__init__.py'>) (96070000)
@@ -79,11 +79,11 @@ nose.selector: DEBUG: Final resolution of test name C:\Users\joao.bateloche\Docu
 nose.importer: DEBUG: Import gerador_strings_tests from C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.importer: DEBUG: Add path C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.importer: DEBUG: find module part gerador_strings_tests (gerador_strings_tests) in ['C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test']
-nose.failure: DEBUG: A failure! <class 'ModuleNotFoundError'> No module named 'str_comp' ['  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\loader.py", line 418, in loadTestsFromName\n    addr.filename, addr.module)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 47, in importFromPath\n    return self.importFromDir(dir_path, fqname)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 94, in importFromDir\n    mod = load_module(part_fqname, fh, filename, desc)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 235, in load_module\n    return load_source(name, filename, file)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 172, in load_source\n    module = _load(spec)\n', '  File "<frozen importlib._bootstrap>", line 684, in _load\n', '  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 678, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\gerador_strings_tests.py", line 2, in <module>\n    from app.gerador_strings import GeradorStrings\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\gerador_strings.py", line 2, in <module>\n    from str_comp import caracteres_possiveis\n']
+nose.failure: DEBUG: A failure! <class 'ModuleNotFoundError'> No module named 'compara_texto' ['  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\loader.py", line 418, in loadTestsFromName\n    addr.filename, addr.module)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 47, in importFromPath\n    return self.importFromDir(dir_path, fqname)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 94, in importFromDir\n    mod = load_module(part_fqname, fh, filename, desc)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 235, in load_module\n    return load_source(name, filename, file)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 172, in load_source\n    module = _load(spec)\n', '  File "<frozen importlib._bootstrap>", line 684, in _load\n', '  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 678, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\gerador_strings_tests.py", line 2, in <module>\n    from app.gerador_strings import GeradorStrings\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\gerador_strings.py", line 2, in <module>\n    from compara_texto import caracteres_possiveis\n']
 nose.suite: DEBUG: Create suite for [<nose.failure.Failure testMethod=runTest>]
 nose.suite: DEBUG: tests [<nose.failure.Failure testMethod=runTest>] context None
 nose.suite: DEBUG: wrap [<nose.failure.Failure testMethod=runTest>]
-nose.suite: DEBUG: wrapping Failure: ModuleNotFoundError (No module named 'str_comp')
+nose.suite: DEBUG: wrapping Failure: ModuleNotFoundError (No module named 'compara_texto')
 nose.suite: DEBUG: Context suite for [Test(<nose.failure.Failure testMethod=runTest>)] (<class 'nose.failure.Failure'>) (96071024)
 nose.suite: DEBUG: suite <nose.suite.ContextSuite context=Failure> has context Failure
 nose.suite: DEBUG: get ancestry <class 'nose.failure.Failure'>
@@ -131,11 +131,11 @@ nose.selector: DEBUG: Final resolution of test name C:\Users\joao.bateloche\Docu
 nose.importer: DEBUG: Import mutacao_tests from C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.importer: DEBUG: Add path C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.importer: DEBUG: find module part mutacao_tests (mutacao_tests) in ['C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test']
-nose.failure: DEBUG: A failure! <class 'ModuleNotFoundError'> No module named 'str_comp' ['  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\loader.py", line 418, in loadTestsFromName\n    addr.filename, addr.module)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 47, in importFromPath\n    return self.importFromDir(dir_path, fqname)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 94, in importFromDir\n    mod = load_module(part_fqname, fh, filename, desc)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 235, in load_module\n    return load_source(name, filename, file)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 172, in load_source\n    module = _load(spec)\n', '  File "<frozen importlib._bootstrap>", line 684, in _load\n', '  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 678, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\mutacao_tests.py", line 2, in <module>\n    from app.mutacao import Mutacao\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\mutacao.py", line 2, in <module>\n    from str_comp import caracteres_possiveis\n']
+nose.failure: DEBUG: A failure! <class 'ModuleNotFoundError'> No module named 'compara_texto' ['  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\loader.py", line 418, in loadTestsFromName\n    addr.filename, addr.module)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 47, in importFromPath\n    return self.importFromDir(dir_path, fqname)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 94, in importFromDir\n    mod = load_module(part_fqname, fh, filename, desc)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 235, in load_module\n    return load_source(name, filename, file)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 172, in load_source\n    module = _load(spec)\n', '  File "<frozen importlib._bootstrap>", line 684, in _load\n', '  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 678, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\mutacao_tests.py", line 2, in <module>\n    from app.mutacao import Mutacao\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\mutacao.py", line 2, in <module>\n    from compara_texto import caracteres_possiveis\n']
 nose.suite: DEBUG: Create suite for [<nose.failure.Failure testMethod=runTest>]
 nose.suite: DEBUG: tests [<nose.failure.Failure testMethod=runTest>] context None
 nose.suite: DEBUG: wrap [<nose.failure.Failure testMethod=runTest>]
-nose.suite: DEBUG: wrapping Failure: ModuleNotFoundError (No module named 'str_comp')
+nose.suite: DEBUG: wrapping Failure: ModuleNotFoundError (No module named 'compara_texto')
 nose.suite: DEBUG: Context suite for [Test(<nose.failure.Failure testMethod=runTest>)] (<class 'nose.failure.Failure'>) (96179504)
 nose.suite: DEBUG: suite <nose.suite.ContextSuite context=Failure> has context Failure
 nose.suite: DEBUG: get ancestry <class 'nose.failure.Failure'>
@@ -171,11 +171,11 @@ nose.selector: DEBUG: Final resolution of test name C:\Users\joao.bateloche\Docu
 nose.importer: DEBUG: Import reproducao_tests from C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.importer: DEBUG: Add path C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.importer: DEBUG: find module part reproducao_tests (reproducao_tests) in ['C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test']
-nose.failure: DEBUG: A failure! <class 'ModuleNotFoundError'> No module named 'str_comp' ['  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\loader.py", line 418, in loadTestsFromName\n    addr.filename, addr.module)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 47, in importFromPath\n    return self.importFromDir(dir_path, fqname)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 94, in importFromDir\n    mod = load_module(part_fqname, fh, filename, desc)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 235, in load_module\n    return load_source(name, filename, file)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 172, in load_source\n    module = _load(spec)\n', '  File "<frozen importlib._bootstrap>", line 684, in _load\n', '  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 678, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\reproducao_tests.py", line 4, in <module>\n    from app.mutacao import Mutacao\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\mutacao.py", line 2, in <module>\n    from str_comp import caracteres_possiveis\n']
+nose.failure: DEBUG: A failure! <class 'ModuleNotFoundError'> No module named 'compara_texto' ['  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\loader.py", line 418, in loadTestsFromName\n    addr.filename, addr.module)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 47, in importFromPath\n    return self.importFromDir(dir_path, fqname)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\importer.py", line 94, in importFromDir\n    mod = load_module(part_fqname, fh, filename, desc)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 235, in load_module\n    return load_source(name, filename, file)\n', '  File "c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\imp.py", line 172, in load_source\n    module = _load(spec)\n', '  File "<frozen importlib._bootstrap>", line 684, in _load\n', '  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 678, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\reproducao_tests.py", line 4, in <module>\n    from app.mutacao import Mutacao\n', '  File "C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\app\\mutacao.py", line 2, in <module>\n    from compara_texto import caracteres_possiveis\n']
 nose.suite: DEBUG: Create suite for [<nose.failure.Failure testMethod=runTest>]
 nose.suite: DEBUG: tests [<nose.failure.Failure testMethod=runTest>] context None
 nose.suite: DEBUG: wrap [<nose.failure.Failure testMethod=runTest>]
-nose.suite: DEBUG: wrapping Failure: ModuleNotFoundError (No module named 'str_comp')
+nose.suite: DEBUG: wrapping Failure: ModuleNotFoundError (No module named 'compara_texto')
 nose.suite: DEBUG: Context suite for [Test(<nose.failure.Failure testMethod=runTest>)] (<class 'nose.failure.Failure'>) (96180720)
 nose.suite: DEBUG: suite <nose.suite.ContextSuite context=Failure> has context Failure
 nose.suite: DEBUG: get ancestry <class 'nose.failure.Failure'>
@@ -204,133 +204,133 @@ nose.suite: DEBUG: ancestor <module 'nose' from 'c:\\users\\joao.bateloche\\appd
 nose.suite: DEBUG: ancestor <module 'nose' from 'c:\\users\\joao.bateloche\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\nose\\__init__.py'> already torn down
 nose.suite: DEBUG: ancestor <class 'nose.failure.Failure'> may need teardown
 nose.suite: DEBUG: ancestor <class 'nose.failure.Failure'> already torn down
-nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\str_comp_tests.py? True
-nose.loader: DEBUG: load from C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\str_comp_tests.py (None)
-nose.selector: DEBUG: Test name C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\str_comp_tests.py resolved to file C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\str_comp_tests.py, module None, call None
-nose.selector: DEBUG: Final resolution of test name C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\str_comp_tests.py: file C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\str_comp_tests.py module str_comp_tests call None
-nose.importer: DEBUG: Import str_comp_tests from C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
+nose.selector: DEBUG: wantFile C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\compara_texto_tests.py? True
+nose.loader: DEBUG: load from C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\compara_texto_tests.py (None)
+nose.selector: DEBUG: Test name C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\compara_texto_tests.py resolved to file C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\compara_texto_tests.py, module None, call None
+nose.selector: DEBUG: Final resolution of test name C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\compara_texto_tests.py: file C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test\compara_texto_tests.py module compara_texto_tests call None
+nose.importer: DEBUG: Import compara_texto_tests from C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.importer: DEBUG: Add path C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
-nose.importer: DEBUG: find module part str_comp_tests (str_comp_tests) in ['C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test']
-nose.loader: DEBUG: Load from module <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
-nose.selector: DEBUG: wantModule <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>? True
-nose.selector: DEBUG: wantClass <class 'str_comp_tests.StrCompTests'>? True
+nose.importer: DEBUG: find module part compara_texto_tests (compara_texto_tests) in ['C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test']
+nose.loader: DEBUG: Load from module <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
+nose.selector: DEBUG: wantModule <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>? True
+nose.selector: DEBUG: wantClass <class 'compara_texto_tests.ComparaTextoTests'>? True
 nose.selector: DEBUG: wantFunction <function caracteres_diferentes at 0x05BFF3D8>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.addCleanup>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.addTypeEqualityFunc>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertAlmostEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertCountEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertDictContainsSubset>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertDictEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertFalse>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertGreater>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertGreaterEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertIn>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertIs>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertIsInstance>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertIsNone>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertIsNot>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertIsNotNone>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertLess>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertLessEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertListEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertLogs>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertMultiLineEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertNotAlmostEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertNotEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertNotIn>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertNotIsInstance>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertNotRegex>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertRaises>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertRaisesRegex>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertRegex>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertSequenceEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertSetEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertTrue>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertTupleEqual>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertWarns>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.assertWarnsRegex>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.countTestCases>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.debug>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.defaultTestResult>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.doCleanups>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.fail>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.deprecated_func>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.id>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.run>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.setUp>? None
-nose.selector: DEBUG: wantMethod <bound method TestCase.setUpClass of <class 'str_comp_tests.StrCompTests'>>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.shortDescription>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.skipTest>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.subTest>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.tearDown>? None
-nose.selector: DEBUG: wantMethod <bound method TestCase.tearDownClass of <class 'str_comp_tests.StrCompTests'>>? None
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.test_deve_retornar_quantidade_de_caracteres_diferentes>? True
-nose.selector: DEBUG: wantMethod <unbound method StrCompTests.test_deve_retornar_zero_para_strings_iguais>? True
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.addCleanup>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.addTypeEqualityFunc>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertAlmostEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertCountEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertDictContainsSubset>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertDictEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertFalse>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertGreater>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertGreaterEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertIn>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertIs>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertIsInstance>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertIsNone>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertIsNot>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertIsNotNone>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertLess>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertLessEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertListEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertLogs>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertMultiLineEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertNotAlmostEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertNotIn>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertNotIsInstance>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertNotRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertRaises>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertRaisesRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertSequenceEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertSetEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertTrue>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertTupleEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertWarns>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.assertWarnsRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.countTestCases>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.debug>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.defaultTestResult>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.doCleanups>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.fail>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.id>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.run>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.setUp>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.setUpClass of <class 'compara_texto_tests.ComparaTextoTests'>>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.shortDescription>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.skipTest>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.subTest>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.tearDown>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.tearDownClass of <class 'compara_texto_tests.ComparaTextoTests'>>? None
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.test_deve_retornar_quantidade_de_caracteres_diferentes>? True
+nose.selector: DEBUG: wantMethod <unbound method ComparaTextoTests.test_deve_retornar_zero_para_strings_iguais>? True
 nose.suite: DEBUG: Create suite for <map object at 0x05BF1950>
 nose.suite: DEBUG: tests <map object at 0x05BF1950> context None
 nose.suite: DEBUG: wrap <map object at 0x05BF1950>
-nose.suite: DEBUG: wrapping test_deve_retornar_quantidade_de_caracteres_diferentes (str_comp_tests.StrCompTests)
-nose.suite: DEBUG: wrapping test_deve_retornar_zero_para_strings_iguais (str_comp_tests.StrCompTests)
-nose.suite: DEBUG: Context suite for [Test(<str_comp_tests.StrCompTests testMethod=test_deve_retornar_quantidade_de_caracteres_diferentes>), Test(<str_comp_tests.StrCompTests testMethod=test_deve_retornar_zero_para_strings_iguais>)] (<class 'str_comp_tests.StrCompTests'>) (96410640)
-nose.suite: DEBUG: suite <nose.suite.ContextSuite context=StrCompTests> has context StrCompTests
-nose.suite: DEBUG: get ancestry <class 'str_comp_tests.StrCompTests'>
-nose.suite: DEBUG:  <class 'str_comp_tests.StrCompTests'> ancestors ['str_comp_tests']
-nose: DEBUG: __import__ str_comp_tests
-nose: DEBUG: resolve: [], str_comp_tests, <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>, <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
-nose.suite: DEBUG: suite <nose.suite.ContextSuite context=StrCompTests> has ancestor str_comp_tests
+nose.suite: DEBUG: wrapping test_deve_retornar_quantidade_de_caracteres_diferentes (compara_texto_tests.ComparaTextoTests)
+nose.suite: DEBUG: wrapping test_deve_retornar_zero_para_strings_iguais (compara_texto_tests.ComparaTextoTests)
+nose.suite: DEBUG: Context suite for [Test(<compara_texto_tests.ComparaTextoTests testMethod=test_deve_retornar_quantidade_de_caracteres_diferentes>), Test(<compara_texto_tests.ComparaTextoTests testMethod=test_deve_retornar_zero_para_strings_iguais>)] (<class 'compara_texto_tests.ComparaTextoTests'>) (96410640)
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=ComparaTextoTests> has context ComparaTextoTests
+nose.suite: DEBUG: get ancestry <class 'compara_texto_tests.ComparaTextoTests'>
+nose.suite: DEBUG:  <class 'compara_texto_tests.ComparaTextoTests'> ancestors ['compara_texto_tests']
+nose: DEBUG: __import__ compara_texto_tests
+nose: DEBUG: resolve: [], compara_texto_tests, <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>, <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=ComparaTextoTests> has ancestor compara_texto_tests
 nose.suite: DEBUG: Create suite for <nose.suite.ContextList object at 0x05BF1790>
-nose.suite: DEBUG: tests <nose.suite.ContextList object at 0x05BF1790> context <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
-nose.suite: DEBUG: Context suite for <nose.suite.ContextList object at 0x05BF1790> (<module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>) (96410032)
-nose.suite: DEBUG: suite <nose.suite.ContextSuite context=str_comp_tests> has context str_comp_tests
-nose.suite: DEBUG: get ancestry <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
-nose.suite: DEBUG: suite 96410032 (<nose.suite.ContextSuite context=str_comp_tests>) run called, tests: <generator object _get_wrapped_tests at 0x05C097B0>
+nose.suite: DEBUG: tests <nose.suite.ContextList object at 0x05BF1790> context <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
+nose.suite: DEBUG: Context suite for <nose.suite.ContextList object at 0x05BF1790> (<module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>) (96410032)
+nose.suite: DEBUG: suite <nose.suite.ContextSuite context=compara_texto_tests> has context compara_texto_tests
+nose.suite: DEBUG: get ancestry <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
+nose.suite: DEBUG: suite 96410032 (<nose.suite.ContextSuite context=compara_texto_tests>) run called, tests: <generator object _get_wrapped_tests at 0x05C097B0>
 nose.suite: DEBUG: suite 96410032 setUp called, tests: <generator object _get_wrapped_tests at 0x05C097B0>
 nose.suite: DEBUG: tests in 96410032?
-nose.suite: DEBUG: ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'> may need setup
-nose.suite: DEBUG: ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'> does need setup
-nose.suite: DEBUG: <nose.suite.ContextSuite context=str_comp_tests> setup context <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
+nose.suite: DEBUG: ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'> may need setup
+nose.suite: DEBUG: ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'> does need setup
+nose.suite: DEBUG: <nose.suite.ContextSuite context=compara_texto_tests> setup context <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
 nose.suite: DEBUG: completed suite setup
-nose.suite: DEBUG: precache is [<nose.suite.ContextSuite context=StrCompTests>]
-nose.suite: DEBUG: suite 96410640 (<nose.suite.ContextSuite context=StrCompTests>) run called, tests: <generator object _get_wrapped_tests at 0x05C09810>
+nose.suite: DEBUG: precache is [<nose.suite.ContextSuite context=ComparaTextoTests>]
+nose.suite: DEBUG: suite 96410640 (<nose.suite.ContextSuite context=ComparaTextoTests>) run called, tests: <generator object _get_wrapped_tests at 0x05C09810>
 nose.suite: DEBUG: suite 96410640 setUp called, tests: <generator object _get_wrapped_tests at 0x05C09810>
 nose.suite: DEBUG: tests in 96410640?
-nose.suite: DEBUG: ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'> may need setup
-nose.suite: DEBUG: ancestor <class 'str_comp_tests.StrCompTests'> may need setup
-nose.suite: DEBUG: ancestor <class 'str_comp_tests.StrCompTests'> does need setup
-nose.suite: DEBUG: <nose.suite.ContextSuite context=StrCompTests> setup context <class 'str_comp_tests.StrCompTests'>
-nose: DEBUG: call fixture <class 'str_comp_tests.StrCompTests'>.setUpClass
+nose.suite: DEBUG: ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'> may need setup
+nose.suite: DEBUG: ancestor <class 'compara_texto_tests.ComparaTextoTests'> may need setup
+nose.suite: DEBUG: ancestor <class 'compara_texto_tests.ComparaTextoTests'> does need setup
+nose.suite: DEBUG: <nose.suite.ContextSuite context=ComparaTextoTests> setup context <class 'compara_texto_tests.ComparaTextoTests'>
+nose: DEBUG: call fixture <class 'compara_texto_tests.ComparaTextoTests'>.setUpClass
 nose.suite: DEBUG: completed suite setup
-nose.suite: DEBUG: precache is [Test(<str_comp_tests.StrCompTests testMethod=test_deve_retornar_quantidade_de_caracteres_diferentes>), Test(<str_comp_tests.StrCompTests testMethod=test_deve_retornar_zero_para_strings_iguais>)]
+nose.suite: DEBUG: precache is [Test(<compara_texto_tests.ComparaTextoTests testMethod=test_deve_retornar_quantidade_de_caracteres_diferentes>), Test(<compara_texto_tests.ComparaTextoTests testMethod=test_deve_retornar_zero_para_strings_iguais>)]
 nose.suite: DEBUG: context teardown
-nose.suite: DEBUG: ancestor <class 'str_comp_tests.StrCompTests'> may need teardown
-nose.suite: DEBUG: <nose.suite.ContextSuite context=StrCompTests> setup ancestor <class 'str_comp_tests.StrCompTests'>
-nose.suite: DEBUG: <nose.suite.ContextSuite context=StrCompTests> teardown context <class 'str_comp_tests.StrCompTests'>
-nose: DEBUG: call fixture <class 'str_comp_tests.StrCompTests'>.tearDownClass
-nose.suite: DEBUG: ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'> may need teardown
-nose.suite: DEBUG: <nose.suite.ContextSuite context=str_comp_tests> setup ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
-nose.suite: DEBUG: ancestor <class 'str_comp_tests.StrCompTests'> may need teardown
-nose.suite: DEBUG: ancestor <class 'str_comp_tests.StrCompTests'> already torn down
+nose.suite: DEBUG: ancestor <class 'compara_texto_tests.ComparaTextoTests'> may need teardown
+nose.suite: DEBUG: <nose.suite.ContextSuite context=ComparaTextoTests> setup ancestor <class 'compara_texto_tests.ComparaTextoTests'>
+nose.suite: DEBUG: <nose.suite.ContextSuite context=ComparaTextoTests> teardown context <class 'compara_texto_tests.ComparaTextoTests'>
+nose: DEBUG: call fixture <class 'compara_texto_tests.ComparaTextoTests'>.tearDownClass
+nose.suite: DEBUG: ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'> may need teardown
+nose.suite: DEBUG: <nose.suite.ContextSuite context=compara_texto_tests> setup ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
+nose.suite: DEBUG: ancestor <class 'compara_texto_tests.ComparaTextoTests'> may need teardown
+nose.suite: DEBUG: ancestor <class 'compara_texto_tests.ComparaTextoTests'> already torn down
 nose.suite: DEBUG: context teardown
-nose.suite: DEBUG: ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'> may need teardown
-nose.suite: DEBUG: <nose.suite.ContextSuite context=str_comp_tests> setup ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
-nose.suite: DEBUG: <nose.suite.ContextSuite context=str_comp_tests> teardown context <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'>
-nose.suite: DEBUG: ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'> may need teardown
-nose.suite: DEBUG: ancestor <module 'str_comp_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\str_comp_tests.py'> already torn down
+nose.suite: DEBUG: ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'> may need teardown
+nose.suite: DEBUG: <nose.suite.ContextSuite context=compara_texto_tests> setup ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
+nose.suite: DEBUG: <nose.suite.ContextSuite context=compara_texto_tests> teardown context <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'>
+nose.suite: DEBUG: ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'> may need teardown
+nose.suite: DEBUG: ancestor <module 'compara_texto_tests' from 'C:\\Users\\joao.bateloche\\Documents\\reposc\\SelecaoCumulativa\\test\\compara_texto_tests.py'> already torn down
 nose.importer: DEBUG: Remove path C:\Users\joao.bateloche\Documents\reposc\SelecaoCumulativa\test
 nose.suite: DEBUG: context teardown
 nose.suite: DEBUG: No reason to teardown (was_setup? False was_torndown? False)

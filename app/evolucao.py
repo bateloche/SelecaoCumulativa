@@ -1,13 +1,13 @@
+from compara_texto import ComparaTexto
 from gerador_strings import GeradorStrings
 from reproducao import Reproducao
 from mutacao import Mutacao
 from heapq import heappop, heappush, heapify
-from str_comp import StrComp
 
 gerador = GeradorStrings()
 fim = input().strip() # "METHINKS IT IS LIKE A WEASEL"
 inicio = gerador.nova(len(fim))
-comp = StrComp()
+comp = ComparaTexto()
 
 atual = inicio
 mutacao = Mutacao(2)

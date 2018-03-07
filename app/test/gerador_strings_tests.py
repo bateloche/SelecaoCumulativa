@@ -1,5 +1,5 @@
 import unittest
-from app.gerador_strings import GeradorStrings
+from gerador_strings import GeradorStrings
 
 class GeradorStringsTests(unittest.TestCase):
 

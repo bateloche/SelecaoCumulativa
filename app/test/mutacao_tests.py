@@ -1,6 +1,6 @@
 import unittest
-from app.mutacao import Mutacao
-from app.str_comp import StrComp
+from mutacao import Mutacao
+from compara_texto import ComparaTexto
 
 class MutacaoTests(unittest.TestCase):
 
@@ -17,10 +17,10 @@ class MutacaoTests(unittest.TestCase):
         original = "ABCDEFGHIJKLMOPQ"
         mutacao = Mutacao(2)
         mutante = mutacao.mutar(original)
-        self.assertEqual(2, StrComp().caracteres_diferentes(original, mutante))
+        self.assertEqual(2, ComparaTexto().caracteres_diferentes(original, mutante))
 
     def test_deve_alterar_exatamente_a_quantidade_de_caracteres_solicitada_1(self):
         original = "ABCDEFGHIJKLMOPQ"
         mutacao = Mutacao(1)
         mutante = mutacao.mutar(original)
-        self.assertEqual(1, StrComp().caracteres_diferentes(original, mutante))
+        self.assertEqual(1, ComparaTexto().caracteres_diferentes(original, mutante))

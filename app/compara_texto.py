@@ -1,4 +1,4 @@
-class StrComp():
+class ComparaTexto():
 
     def caracteres_diferentes(self, texto, texto_alterado):
         diff = 0
@@ -8,4 +8,5 @@ class StrComp():
             
         return diff
 
-    CARACTERES_POSSIVEIS = "ABCDEFGHIJKLMNOPQRSTUWVXYZ "
+    def CARACTERES_POSSIVEIS(self):
+        return "ABCDEFGHIJKLMNOPQRSTUWVXYZ "

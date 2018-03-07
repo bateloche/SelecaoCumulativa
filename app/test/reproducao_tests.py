@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import Mock
-from app.reproducao import Reproducao
-from app.mutacao import Mutacao
+from mutacao import Mutacao
+from reproducao import Reproducao
 
 class ReproducaoTests(unittest.TestCase):
 
