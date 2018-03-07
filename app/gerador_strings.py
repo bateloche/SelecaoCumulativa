@@ -1,13 +1,13 @@
 from random import randint
+from string_utils import caracteres_possiveis
 
 class GeradorStrings():
 
-    caracteres = "ABCDEFGHIJKLMNOPQRSTUWVXYZ "
-    
-    def nova(self, comprimento):
+    def nova(self, comprimento):,
+        caracteres = caracteres_possiveis()
         resultado = []
         for _ in range(comprimento):
-            aleatorio = randint(0, len(self.caracteres) - 1)
-            resultado.append(self.caracteres[aleatorio])
+            aleatorio = randint(0, len(caracteres) - 1)
+            resultado.append(caracteres[aleatorio])
 
         return ''.join(resultado)

@@ -1,5 +1,6 @@
 import unittest
 from app.mutacao import Mutacao
+from app.string_utils import caracteres_diferentes
 
 class MutacaoTests(unittest.TestCase):
 
@@ -16,18 +17,10 @@ class MutacaoTests(unittest.TestCase):
         original = "ABCDEFGHIJKLMOPQ"
         mutacao = Mutacao(2)
         mutante = mutacao.mutar(original)
-        self.assertEqual(2, self.caracteres_diferentes(original, mutante))
+        self.assertEqual(2, caracteres_diferentes(original, mutante))
 
     def test_deve_alterar_exatamente_a_quantidade_de_caracteres_solicitada_1(self):
         original = "ABCDEFGHIJKLMOPQ"
         mutacao = Mutacao(1)
         mutante = mutacao.mutar(original)
-        self.assertEqual(1, self.caracteres_diferentes(original, mutante))
-
-    def caracteres_diferentes(self, texto, texto_alterado):
-        diff = 0
-        for i, c in enumerate(texto):
-            if c != texto_alterado[i]:
-                diff += 1
-        
-        return diff
+        self.assertEqual(1, caracteres_diferentes(original, mutante))

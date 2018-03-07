@@ -2,14 +2,7 @@ from gerador_strings import GeradorStrings
 from reproducao import Reproducao
 from mutacao import Mutacao
 from heapq import heappop, heappush, heapify
-
-def caracteres_diferentes(texto, texto_alterado):
-    diff = 0
-    for i, c in enumerate(texto):
-        if c != texto_alterado[i]:
-            diff += 1
-        
-    return diff
+from string_utils import caracteres_diferentes
 
 if __name__ == "__main__":
     gerador = GeradorStrings()
